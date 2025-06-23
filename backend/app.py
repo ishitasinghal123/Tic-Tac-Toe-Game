@@ -9,6 +9,7 @@ CORS(app, resources={r"/*": {"origins": "https://tic-tac-toe-game-sepia-iota.ver
 @app.route('/')
 def home():
     return "Backend is live!"
+    
 
 @app.route('/computer_move', methods=['POST'])
 def computer_move():
