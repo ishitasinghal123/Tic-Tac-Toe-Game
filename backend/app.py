@@ -4,15 +4,11 @@ from minmax import get_best_move
 
 app = Flask(__name__)
 # CORS(app,origins=["https://tic-tac-toe-game-sepia-iota.vercel.app"])
-CORS(app,
-     origins=["https://tic-tac-toe-game-sepia-iota.vercel.app"],
-     methods=["GET", "POST", "OPTIONS"],
-     allow_headers=["Content-Type"],
-     supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": "https://tic-tac-toe-game-sepia-iota.vercel.app"}})
 
 @app.route('/')
 def home():
-    return "Backend is running"
+    return "Backend is live!"
 
 @app.route('/computer_move', methods=['POST'])
 def computer_move():
