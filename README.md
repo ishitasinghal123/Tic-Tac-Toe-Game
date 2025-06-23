@@ -18,5 +18,5 @@ This is an interactive Tic Tac Toe game where the player competes against a comp
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/tic-tac-toe-minimax.git
-cd tic-tac-toe-minimax
+git clone https://github.com/ishitasinghal123/Tic-Tac-Toe-Game.git
+cd Tic-Tac-Toe-Game
