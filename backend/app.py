@@ -3,7 +3,7 @@ from flask_cors import CORS
 from minmax import get_best_move
 
 app = Flask(__name__)
-CORS(app,origins="https://tic-tac-toe-game-git-main-ishita-singhals-projects.vercel.app")
+CORS(app,origins=["https://tic-tac-toe-game-git-main-ishita-singhals-projects.vercel.app"])
 
 @app.route('/computer_move', methods=['POST'])
 def computer_move():
