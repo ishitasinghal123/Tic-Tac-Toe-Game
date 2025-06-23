@@ -62,7 +62,7 @@ function App() {
     setStatus("Computer's Turn...");
 
     try {
-      const response = await fetch("http://localhost:5000/computer_move", {
+      const response = await fetch("https://tic-tac-toe-game-backend.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ board: newBoard }),
@@ -112,7 +112,7 @@ function App() {
       setIsPlayerTurn(false);
       setStatus("Computer's Turn...");
       try {
-        const response = await fetch("http://localhost:5000/computer_move", {
+        const response = await fetch("https://tic-tac-toe-game-backend.onrender.com", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ board: newBoard }),
