@@ -2,6 +2,12 @@
 
 This is an interactive Tic Tac Toe game where the player competes against a computer using the **Minimax algorithm** with Alpha-Beta pruning.
 
+## 🕹️ Live Demo
+
+🔗 [Play Now](https://tic-tac-toe-game-sepia-iota.vercel.app/)
+
+No setup required — just click and start playing!
+
 ## 🧠 Technologies Used
 - **Frontend**: React.js
 - **Backend**: Flask (Python)
@@ -13,10 +19,3 @@ This is an interactive Tic Tac Toe game where the player competes against a comp
 - Displays winner or draw
 - Play Again and Reset options
 - Responsive UI
-
-## 🚀 Run Locally
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/ishitasinghal123/Tic-Tac-Toe-Game.git
-cd Tic-Tac-Toe-Game
