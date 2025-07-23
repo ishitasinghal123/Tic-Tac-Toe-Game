@@ -18,4 +18,3 @@ No setup required — just click and start playing!
 - Clear "Your Turn" / "Computer's Turn" indicators
 - Displays winner or draw
 - Play Again and Reset options
-- Responsive UI
